@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: yellow;
+}
+
+header > h3 {
+    text-align: center;
+}
+
+nav, ul {
+    background-color: burlywood;
+    font-size: 0;
+    list-style-type: none;
+    width: 100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+li {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+li:hover {
+    background-color: orange;
+}
+
+a {
+    width: 100%;
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: aliceblue;
+    height: 80%;
+}
